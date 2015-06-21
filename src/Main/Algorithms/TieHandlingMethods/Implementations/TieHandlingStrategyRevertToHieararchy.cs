@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using USC.GISResearchLab.Common.Core.Geocoders.FeatureMatching;
-using USC.GISResearchLab.Common.Core.Geocoders.ReferenceDatasets.Sources.Interfaces;
 using USC.GISResearchLab.Geocoding.Core.Algorithms.FeatureMatchingMethods;
 using USC.GISResearchLab.Geocoding.Core.Metadata.FeatureMatchingResults;
 using USC.GISResearchLab.Geocoding.Core.Queries.Parameters;
@@ -16,7 +15,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.TieHandlingMethods.Implem
             TieHandlingStrategyType = TieHandlingStrategyType.RevertToHierarchy;
         }
 
-        public override FeatureMatchingResult HandleTie(ParameterSet parameterSet, IFeatureSource source, ReferenceSourceQueryResultSet candidates)
+        public override FeatureMatchingResult HandleTie(ParameterSet parameterSet, FeatureMatchingGeographyType featureMatchingGeographyType, ReferenceSourceQueryResultSet candidates)
         {
             FeatureMatchingResult ret = new FeatureMatchingResult();
 

@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using USC.GISResearchLab.Common.Addresses;
 using USC.GISResearchLab.Common.Core.Geocoders.FeatureMatching;
-using USC.GISResearchLab.Common.Core.Geocoders.ReferenceDatasets.Sources.Interfaces;
+
 using USC.GISResearchLab.Geocoding.Core.Algorithms.FeatureMatchingMethods;
 using USC.GISResearchLab.Geocoding.Core.Algorithms.TieHandlingMethods.Interfaces;
 using USC.GISResearchLab.Geocoding.Core.Queries.Parameters;
 using USC.GISResearchLab.Geocoding.Core.ReferenceDatasets.ReferenceSourceQueries;
+using USC.GISResearchLab.Geocoding.Core.Metadata.FeatureMatchingResults;
 
 namespace USC.GISResearchLab.Geocoding.Core.Algorithms.TieHandlingMethods
 {
@@ -21,7 +22,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.TieHandlingMethods
 
         #endregion
 
-        public abstract FeatureMatchingResult HandleTie(ParameterSet parameterSet, IFeatureSource source, ReferenceSourceQueryResultSet candidates);
+        public abstract FeatureMatchingResult HandleTie(ParameterSet parameterSet, FeatureMatchingGeographyType featureMatchingGeographyType, ReferenceSourceQueryResultSet candidates);
 
         public int GetAmbiguityCount(ReferenceSourceQueryResultSet candidates)
         {

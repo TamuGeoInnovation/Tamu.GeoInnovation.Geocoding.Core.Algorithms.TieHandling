@@ -18,9 +18,10 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.TieHandlingMethods.Factor
                 case TieHandlingStrategyType.FlipACoin:
                     ret = new TieHandlingStrategyFlipACoin();
                     break;
-                case TieHandlingStrategyType.RegionalCharacteristics:
-                    ret = new TieHandlingStrategyRegionalCharacteristics();
-                    break;
+                    // DG Commented out becuase it created a circular reference with IFeatureSource. 2015-06-20
+                //case TieHandlingStrategyType.RegionalCharacteristics:
+                //    ret = new TieHandlingStrategyRegionalCharacteristics();
+                //    break;
                 case TieHandlingStrategyType.RevertToHierarchy:
                     ret = new TieHandlingStrategyRevertToHieararchy();
                     break;

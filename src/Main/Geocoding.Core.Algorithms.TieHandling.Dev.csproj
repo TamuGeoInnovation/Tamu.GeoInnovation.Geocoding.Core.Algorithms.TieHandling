@@ -97,7 +97,6 @@
     <Compile Include="Algorithms\TieHandlingMethods\AbstractClasses\AbstractTieHandlingStrategy.cs" />
     <Compile Include="Algorithms\TieHandlingMethods\Factories\TieHandlingStrategyFactory.cs" />
     <Compile Include="Algorithms\TieHandlingMethods\Implementations\TieHandlingStrategyReturnAll.cs" />
-    <Compile Include="Algorithms\TieHandlingMethods\Implementations\TieHandlingStrategyRegionalCharacteristics.cs" />
     <Compile Include="Algorithms\TieHandlingMethods\Implementations\TieHandlingStrategyDynamicFeatureComposition.cs" />
     <Compile Include="Algorithms\TieHandlingMethods\Implementations\TieHandlingStrategyRevertToHieararchy.cs" />
     <Compile Include="Algorithms\TieHandlingMethods\Implementations\TieHandlingStrategyFlipACoin.cs" />
@@ -196,11 +195,6 @@
     <ProjectReference Include="..\..\..\Geocoding.Core.Queries\src\Main\Geocoding.Core.Queries.Dev.csproj">
       <Project>{A1CEFF20-E839-47DE-88C4-06A8AD225221}</Project>
       <Name>Geocoding.Core.Queries.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Geocoding.Core.ReferenceDatasets.FeatureSources.Interfaces\src\Main\Geocoding.Core.ReferenceDatasets.FeatureSources.Interfaces.Dev.csproj">
-      <Project>{9EB4E875-CA0B-46B7-98C3-3A813337F1E4}</Project>
-      <Name>Geocoding.Core.ReferenceDatasets.FeatureSources.Interfaces.Dev</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Geocoding.Core.ReferenceDatasets.ReferenceFeatures\src\Main\Geocoding.Core.ReferenceDatasets.ReferenceFeatures.Dev.csproj">
