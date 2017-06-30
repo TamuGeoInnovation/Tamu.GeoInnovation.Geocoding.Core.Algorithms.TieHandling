@@ -107,6 +107,7 @@
     <Compile Include="Algorithms\TieHandlingMethods\Implementations\TieHandlingStrategyDynamicFeatureComposition.cs" />
     <Compile Include="Algorithms\TieHandlingMethods\Implementations\TieHandlingStrategyRevertToHieararchy.cs" />
     <Compile Include="Algorithms\TieHandlingMethods\Implementations\TieHandlingStrategyFlipACoin.cs" />
+    <Compile Include="Geocoder.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
