@@ -172,10 +172,18 @@
     <Content Include="SqlServerTypes\readme.htm" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\AddressProcessing.Core\src\Main\AddressProcessing.Core.Dev.csproj">
+      <Project>{d971c282-ecc4-4c07-a481-5bc862934b96}</Project>
+      <Name>AddressProcessing.Core.Dev</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\Common.Core.Addresses\Src\Main\Common.Core.Addresses.Dev.csproj">
       <Project>{29C0949B-4D41-4138-B59B-6DE4A6A1774E}</Project>
       <Name>Common.Core.Addresses.Dev</Name>
       <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.ExceptionHandling\Src\Main\Common.Core.ExceptionHandling.Dev.csproj">
+      <Project>{4A553AE2-F5D1-42B6-BE3A-8442DF626EAF}</Project>
+      <Name>Common.Core.ExceptionHandling.Dev</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Common.Core.Geo.GeographicFeatures.Streets\Src\Main\Common.Core.Geo.GeographicFeatures.Streets.Dev.csproj">
       <Project>{0C225E8B-E8AA-4AC2-A5BA-4B00AE357311}</Project>
@@ -237,6 +245,14 @@
       <Project>{30A809F9-1CCA-4747-ADB4-14FC6B8313DD}</Project>
       <Name>Geocoding.Core.Metadata.FeatureMatchingResultTypes.Dev</Name>
       <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geocoding.Core.OutputData.GeocodeResultSet\src\Main\Geocoding.Core.OutputData.GeocodeResultSet.Dev.csproj">
+      <Project>{f85bc636-6bb5-4c85-ac23-660c3248507a}</Project>
+      <Name>Geocoding.Core.OutputData.GeocodeResultSet.Dev</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geocoding.Core.OutputData.WebServices\src\Main\Geocoding.Core.OutputData.WebServices.Dev.csproj">
+      <Project>{9f2d27d0-3be6-4430-900a-79f3d4308f94}</Project>
+      <Name>Geocoding.Core.OutputData.WebServices.Dev</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Geocoding.Core.OutputData\src\Main\Geocoding.Core.OutputData.Dev.csproj">
       <Project>{ac115040-d3ee-4ab7-a3e5-5842724acc15}</Project>
