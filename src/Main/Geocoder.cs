@@ -25,6 +25,9 @@ using USC.GISResearchLab.Geocoding.Scrapers.LAAssessor;
 using USC.GISResearchLab.Common.Core.Geocoders.GeocodingQueries;
 using USC.GISResearchLab.Common.Core.Geocoders.GeocodingQueries.Options;
 using USC.GISResearchLab.Common.Core.Geocoders.FeatureMatching;
+using USC.GISResearchLab.Geocoding.Core.ReferenceDatasets.Sources.Implementations;
+using USC.GISResearchLab.Geocoding.Core.Queries.ParameterValidators.DataSources.Implementations.Implementations;
+using USC.GISResearchLab.Geocoding.Core.Queries.ParameterValidators.DataSources.Implementations;
 
 namespace USC.GISResearchLab.Geocoding.Core
 {
