@@ -101,7 +101,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithms\TieHandlingMethods\AbstractClasses\AbstractTieHandlingStrategy.cs" />
+    <Compile Include="Algorithms\TieHandlingMethods\AbstractClasses\AbstractTieHandlingStrategyOld.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>

@@ -12,7 +12,7 @@ using USC.GISResearchLab.Geocoding.Core.Metadata.FeatureMatchingResults;
 namespace USC.GISResearchLab.Geocoding.Core.Algorithms.TieHandlingMethods
 {
 
-    public abstract class AbstractTieHandlingStrategy : ITieHandlingStrategy
+    public abstract class AbstractTieHandlingStrategyOld : ITieHandlingStrategy
     {
 
 
